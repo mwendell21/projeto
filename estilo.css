@@ -7,7 +7,7 @@ body {
 }
 
 #navegacao {
-  background-image: url("../Imagens/backgroundTeste.jpg");
+  background-image: url("Imagens/backgroundTeste.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 50px;
@@ -96,7 +96,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../Imagens/backgroundTeste.jpg");
+  background-image: url("Imagens/backgroundTeste.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -177,7 +177,7 @@ h2 {
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../Imagens/imagem-pizza.jpg");
+  background-image: url("Imagens/imagem-pizza.jpg");
 }
 
 h1 {
