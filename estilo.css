@@ -77,7 +77,7 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  border: 5px solid rgba(82, 157, 243, 0.336);
+
 }
 
 #imagem-pizza {
@@ -120,7 +120,6 @@ a {
   max-height: 800px;
   max-width: 800px;
   margin: auto;
-  margin: auto;
   overflow: auto;
   display: absolute;
 }
@@ -141,10 +140,13 @@ h2 {
   font-size: 13px;
   padding: -6px 0 0 0;
   font-weight: bold;
+  margin-left: 5px;
 }
 
 #autor {
   padding: -6px 0 0 0;
+  margin-left: 5px;
+ 
 }
 
 .botao {
@@ -192,14 +194,87 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 480px) {
-  body {
-    font-size: 14px;
-  }
-}
-
 @media (max-width: 768px) {
   body {
     font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+  .paragrafo {
+    font-size: 14px;
+  }
+
+  .titulo {
+    float: left;
+  }
+
+  .container {
+    max-height: 1000px;
+
+  }
+
+  #autor,#data {
+    clear: left;
+  }
+
+  .content {
+    max-width: 350px;
+    margin: auto;
+  }
+
+  .header {
+    max-height: 400px;
+    box-sizing: border-box;
+  }
+
+  .top-bar {
+    height: 30px;
+  }
+
+  .titulo {
+    font-size: 20px;
+  }
+
+  .rodape {
+    color: white;
+    width: 100%;
+    height: 40px;
+  }
+
+  .imagem-header {
+    width: 120px;
+    height: 150px;
+    margin-top: 10px;
+    margin-right: 5px;
+  
+  }
+
+  #imagem-pizza {
+      background-size: cover;
+      background-position: center;
+  }
+
+  .botao {
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+
+  .botao:hover {
+    background-color: rgb(124, 124, 124);
+    cursor: pointer;
+  }
+
+  #botao {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 1px 3px rgb(172, 164, 164);
   }
 }
